@@ -482,6 +482,7 @@ body {
         flex-direction: column;
         padding: 5px 0 0 0;
         gap: 10px;
+        width: 100%;
     }
     .header__box {
         display: flex;
