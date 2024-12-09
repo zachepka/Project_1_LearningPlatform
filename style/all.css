@@ -33,6 +33,10 @@ body {
     color: #19191C;
     text-decoration: none;
 }
+.link:focus,
+.link:hover {
+    outline: 3px solid #504DEE;
+}
 .btn-box {
     display: flex;
     gap: 48px;
@@ -55,6 +59,10 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
+.header__link:focus,
+.header__link:hover {
+    outline: 3px solid #504DEE;
+}
 .header__btn {
     background: #19191C;
     color: #EFEFF2;
@@ -63,6 +71,10 @@ body {
     line-height: 22px;
     font-weight: 700;
     text-decoration: none;
+}
+.header__btn:focus,
+.header__btn:hover {
+    outline: 3px solid #504DEE;
 }
 .bg__img {
     background: url(../img/ellipse1.png) 100% 100% no-repeat,
@@ -88,6 +100,10 @@ body {
     text-decoration: none;
     color: #504DEE;
 }
+.offer__link:focus,
+.offer__link:hover {
+    outline: 3px solid #504DEE;
+}
 .offer__title {
     font-size: 58px;
     line-height: 70px;
@@ -108,6 +124,10 @@ body {
     line-height: 22px;
     font-weight: 700;
     margin: 0 0 110px;
+}
+.button:focus,
+.button:hover {
+    outline: 3px solid #19191C;
 }
 .offer__sale {
     font-weight: 700;
@@ -286,6 +306,11 @@ body {
     align-items: center;
     justify-content: center;
     gap: 18px;
+}
+.discover__arrow:hover,
+.discover__arrow:focus,
+.discover__arrow:active {
+    color: #129e74;
 }
 .discover__pics {
     display: flex;
