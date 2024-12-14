@@ -189,10 +189,6 @@ body {
     align-content: space-between;
     gap: 142px;
     padding: 168px 244px 159px 240px;
-    background: url(../img/line1.svg) 100% 100% no-repeat,
-                url(../img/line1.svg) 100% 100% no-repeat,
-                url(../img/line1.svg) 100% 100% no-repeat;
-    background-position: bottom 51% left 53.8%, bottom 51% left 67.6%, bottom 51% left 82.8%;
 }
 .learn__text {
     display: flex;
@@ -652,5 +648,59 @@ body {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 0 0;
+    }
+    .offer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .offer__list {
+        display: none
+    }
+    .offer__holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        margin-bottom: 30px;
+    }
+    .bg__img {
+        background: none;
+    }
+    .learn__learn {
+        padding: 30px;
+    }
+    .learn {
+        width: 100%;
+        padding: 0;
+    }
+    .learn__counter {
+        gap: 30px;
+    }
+    .discover {
+        width: 100%;
+        padding: 0;
+    }
+    .discover__pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .find__program {
+        padding: 0;
     }
 }
